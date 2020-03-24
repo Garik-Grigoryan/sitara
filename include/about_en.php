@@ -1,0 +1,3 @@
+We provide services along the Silk Road Countries - Uzbekistan, Kyrgyzstan, Kazakhstan, Turkmenistan, Tajikistan, Pakistan, Afghanistan  & China (South Western Region).
+We traverse many of the Caravan Routes and travel from one world to another following the trails of the many invaders, writers, poets and, above all, travelers.
+This year adds one more to the 45 years of experience that we at Sitara have achieved in the business of organizing tours in this part of the world.

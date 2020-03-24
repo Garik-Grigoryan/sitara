@@ -1,0 +1,113 @@
+/* ---------------- grids ---------------- */
+.grid, .grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12 {
+  display: inline;
+  float: left;
+}
+
+.grid-1 {
+  width: 8.3333333333%;
+}
+
+.grid-2 {
+  width: 16.6666666667%;
+}
+
+.grid-3 {
+  width: 25%;
+}
+
+.grid-4 {
+  width: 33.3333333333%;
+}
+
+.grid-5 {
+  width: 41.6666666667%;
+}
+
+.grid-6 {
+  width: 50%;
+}
+
+.grid-7 {
+  width: 58.3333333333%;
+}
+
+.grid-8 {
+  width: 66.6666666667%;
+}
+
+.grid-9 {
+  width: 75%;
+}
+
+.grid-10 {
+  width: 83.3333333333%;
+}
+
+.grid-11 {
+  width: 91.6666666667%;
+}
+
+.grid-12 {
+  width: 100%;
+}
+
+.column, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+  display: inline;
+  float: left;
+}
+
+.col-1 {
+  width: 80px;
+}
+
+.col-2 {
+  width: 160px;
+}
+
+.col-3 {
+  width: 240px;
+}
+
+.col-4 {
+  width: 320px;
+}
+
+.col-5 {
+  width: 400px;
+}
+
+.col-6 {
+  width: 480px;
+}
+
+.col-7 {
+  width: 560px;
+}
+
+.col-8 {
+  width: 640px;
+}
+
+.col-9 {
+  width: 720px;
+}
+
+.col-10 {
+  width: 800px;
+}
+
+.col-11 {
+  width: 880px;
+}
+
+.col-12 {
+  width: 960px;
+}
+
+/* layout centering */
+.layout-centering {
+  width: 940px;
+  padding: 0 30px;
+  margin: 0 auto;
+}

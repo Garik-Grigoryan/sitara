@@ -1,0 +1,264 @@
+2016-04-04 02:44:59 - Host: sitara.com - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+rmdir(/home/sitara_web/sitara.com/bitrix/html_pages): Directory not empty (0)
+/home/sitara_web/sitara.com/bitrix/modules/main/lib/data/statichtmlfilestorage.php:154
+#0: rmdir(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/lib/data/statichtmlfilestorage.php:154
+#1: Bitrix\Main\Data\StaticHtmlFileStorage::deleteRecursive(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/classes/general/cache_html.php:1384
+#2: CHTMLPagesCache::onEpilogHtmlCache()
+	/home/sitara_web/sitara.com/bitrix/modules/main/classes/general/cache_html.php:1306
+#3: CHTMLPagesCache::OnEpilog()
+	
+#4: call_user_func_array(array, array)
+	/home/sitara_web/sitara.com/bitrix/modules/main/classes/general/module.php:490
+#5: ExecuteModuleEventEx(array)
+	/home/sitara_web/sitara.com/bitrix/modules/main/include/epilog_admin_after.php:22
+#6: require(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/include/epilog_admin_js.php:8
+#7: require(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/admin/dump.php:811
+#8: require_once(string)
+	/home/sitara_web/sitara.com/bitrix/admin/dump.php:2
+----------
+2016-04-04 02:45:25 - Host: sitara.com - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+rmdir(/home/sitara_web/sitara.com/bitrix/html_pages): Directory not empty (0)
+/home/sitara_web/sitara.com/bitrix/modules/main/lib/data/statichtmlfilestorage.php:154
+#0: rmdir(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/lib/data/statichtmlfilestorage.php:154
+#1: Bitrix\Main\Data\StaticHtmlFileStorage::deleteRecursive(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/classes/general/cache_html.php:1384
+#2: CHTMLPagesCache::onEpilogHtmlCache()
+	/home/sitara_web/sitara.com/bitrix/modules/main/classes/general/cache_html.php:1306
+#3: CHTMLPagesCache::OnEpilog()
+	
+#4: call_user_func_array(array, array)
+	/home/sitara_web/sitara.com/bitrix/modules/main/classes/general/module.php:490
+#5: ExecuteModuleEventEx(array)
+	/home/sitara_web/sitara.com/bitrix/modules/main/include/epilog_admin_after.php:22
+#6: require(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/include/epilog_admin_js.php:8
+#7: require(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/admin/dump.php:811
+#8: require_once(string)
+	/home/sitara_web/sitara.com/bitrix/admin/dump.php:2
+----------
+2016-04-04 02:45:48 - Host: sitara.com - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+rmdir(/home/sitara_web/sitara.com/bitrix/html_pages): Directory not empty (0)
+/home/sitara_web/sitara.com/bitrix/modules/main/lib/data/statichtmlfilestorage.php:154
+#0: rmdir(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/lib/data/statichtmlfilestorage.php:154
+#1: Bitrix\Main\Data\StaticHtmlFileStorage::deleteRecursive(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/classes/general/cache_html.php:1384
+#2: CHTMLPagesCache::onEpilogHtmlCache()
+	/home/sitara_web/sitara.com/bitrix/modules/main/classes/general/cache_html.php:1306
+#3: CHTMLPagesCache::OnEpilog()
+	
+#4: call_user_func_array(array, array)
+	/home/sitara_web/sitara.com/bitrix/modules/main/classes/general/module.php:490
+#5: ExecuteModuleEventEx(array)
+	/home/sitara_web/sitara.com/bitrix/modules/main/include/epilog_admin_after.php:22
+#6: require(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/include/epilog_admin_js.php:8
+#7: require(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/admin/dump.php:811
+#8: require_once(string)
+	/home/sitara_web/sitara.com/bitrix/admin/dump.php:2
+----------
+2016-04-04 02:46:12 - Host: sitara.com - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+rmdir(/home/sitara_web/sitara.com/bitrix/html_pages): Directory not empty (0)
+/home/sitara_web/sitara.com/bitrix/modules/main/lib/data/statichtmlfilestorage.php:154
+#0: rmdir(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/lib/data/statichtmlfilestorage.php:154
+#1: Bitrix\Main\Data\StaticHtmlFileStorage::deleteRecursive(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/classes/general/cache_html.php:1384
+#2: CHTMLPagesCache::onEpilogHtmlCache()
+	/home/sitara_web/sitara.com/bitrix/modules/main/classes/general/cache_html.php:1306
+#3: CHTMLPagesCache::OnEpilog()
+	
+#4: call_user_func_array(array, array)
+	/home/sitara_web/sitara.com/bitrix/modules/main/classes/general/module.php:490
+#5: ExecuteModuleEventEx(array)
+	/home/sitara_web/sitara.com/bitrix/modules/main/include/epilog_admin_after.php:22
+#6: require(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/include/epilog_admin_js.php:8
+#7: require(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/admin/dump.php:811
+#8: require_once(string)
+	/home/sitara_web/sitara.com/bitrix/admin/dump.php:2
+----------
+2016-04-04 02:46:35 - Host: sitara.com - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+rmdir(/home/sitara_web/sitara.com/bitrix/html_pages): Directory not empty (0)
+/home/sitara_web/sitara.com/bitrix/modules/main/lib/data/statichtmlfilestorage.php:154
+#0: rmdir(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/lib/data/statichtmlfilestorage.php:154
+#1: Bitrix\Main\Data\StaticHtmlFileStorage::deleteRecursive(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/classes/general/cache_html.php:1384
+#2: CHTMLPagesCache::onEpilogHtmlCache()
+	/home/sitara_web/sitara.com/bitrix/modules/main/classes/general/cache_html.php:1306
+#3: CHTMLPagesCache::OnEpilog()
+	
+#4: call_user_func_array(array, array)
+	/home/sitara_web/sitara.com/bitrix/modules/main/classes/general/module.php:490
+#5: ExecuteModuleEventEx(array)
+	/home/sitara_web/sitara.com/bitrix/modules/main/include/epilog_admin_after.php:22
+#6: require(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/include/epilog_admin_js.php:8
+#7: require(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/admin/dump.php:811
+#8: require_once(string)
+	/home/sitara_web/sitara.com/bitrix/admin/dump.php:2
+----------
+2016-04-04 02:47:06 - Host: sitara.com - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+rmdir(/home/sitara_web/sitara.com/bitrix/html_pages): Directory not empty (0)
+/home/sitara_web/sitara.com/bitrix/modules/main/lib/data/statichtmlfilestorage.php:154
+#0: rmdir(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/lib/data/statichtmlfilestorage.php:154
+#1: Bitrix\Main\Data\StaticHtmlFileStorage::deleteRecursive(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/classes/general/cache_html.php:1384
+#2: CHTMLPagesCache::onEpilogHtmlCache()
+	/home/sitara_web/sitara.com/bitrix/modules/main/classes/general/cache_html.php:1306
+#3: CHTMLPagesCache::OnEpilog()
+	
+#4: call_user_func_array(array, array)
+	/home/sitara_web/sitara.com/bitrix/modules/main/classes/general/module.php:490
+#5: ExecuteModuleEventEx(array)
+	/home/sitara_web/sitara.com/bitrix/modules/main/include/epilog_admin_after.php:22
+#6: require(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/include/epilog_admin_js.php:8
+#7: require(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/admin/dump.php:811
+#8: require_once(string)
+	/home/sitara_web/sitara.com/bitrix/admin/dump.php:2
+----------
+2016-04-04 02:47:29 - Host: sitara.com - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+rmdir(/home/sitara_web/sitara.com/bitrix/html_pages): Directory not empty (0)
+/home/sitara_web/sitara.com/bitrix/modules/main/lib/data/statichtmlfilestorage.php:154
+#0: rmdir(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/lib/data/statichtmlfilestorage.php:154
+#1: Bitrix\Main\Data\StaticHtmlFileStorage::deleteRecursive(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/classes/general/cache_html.php:1384
+#2: CHTMLPagesCache::onEpilogHtmlCache()
+	/home/sitara_web/sitara.com/bitrix/modules/main/classes/general/cache_html.php:1306
+#3: CHTMLPagesCache::OnEpilog()
+	
+#4: call_user_func_array(array, array)
+	/home/sitara_web/sitara.com/bitrix/modules/main/classes/general/module.php:490
+#5: ExecuteModuleEventEx(array)
+	/home/sitara_web/sitara.com/bitrix/modules/main/include/epilog_admin_after.php:22
+#6: require(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/include/epilog_admin_js.php:8
+#7: require(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/admin/dump.php:811
+#8: require_once(string)
+	/home/sitara_web/sitara.com/bitrix/admin/dump.php:2
+----------
+2016-04-04 02:47:52 - Host: sitara.com - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+rmdir(/home/sitara_web/sitara.com/bitrix/html_pages): Directory not empty (0)
+/home/sitara_web/sitara.com/bitrix/modules/main/lib/data/statichtmlfilestorage.php:154
+#0: rmdir(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/lib/data/statichtmlfilestorage.php:154
+#1: Bitrix\Main\Data\StaticHtmlFileStorage::deleteRecursive(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/classes/general/cache_html.php:1384
+#2: CHTMLPagesCache::onEpilogHtmlCache()
+	/home/sitara_web/sitara.com/bitrix/modules/main/classes/general/cache_html.php:1306
+#3: CHTMLPagesCache::OnEpilog()
+	
+#4: call_user_func_array(array, array)
+	/home/sitara_web/sitara.com/bitrix/modules/main/classes/general/module.php:490
+#5: ExecuteModuleEventEx(array)
+	/home/sitara_web/sitara.com/bitrix/modules/main/include/epilog_admin_after.php:22
+#6: require(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/include/epilog_admin_js.php:8
+#7: require(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/admin/dump.php:811
+#8: require_once(string)
+	/home/sitara_web/sitara.com/bitrix/admin/dump.php:2
+----------
+2016-04-04 02:48:16 - Host: sitara.com - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+rmdir(/home/sitara_web/sitara.com/bitrix/html_pages): Directory not empty (0)
+/home/sitara_web/sitara.com/bitrix/modules/main/lib/data/statichtmlfilestorage.php:154
+#0: rmdir(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/lib/data/statichtmlfilestorage.php:154
+#1: Bitrix\Main\Data\StaticHtmlFileStorage::deleteRecursive(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/classes/general/cache_html.php:1384
+#2: CHTMLPagesCache::onEpilogHtmlCache()
+	/home/sitara_web/sitara.com/bitrix/modules/main/classes/general/cache_html.php:1306
+#3: CHTMLPagesCache::OnEpilog()
+	
+#4: call_user_func_array(array, array)
+	/home/sitara_web/sitara.com/bitrix/modules/main/classes/general/module.php:490
+#5: ExecuteModuleEventEx(array)
+	/home/sitara_web/sitara.com/bitrix/modules/main/include/epilog_admin_after.php:22
+#6: require(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/include/epilog_admin_js.php:8
+#7: require(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/admin/dump.php:811
+#8: require_once(string)
+	/home/sitara_web/sitara.com/bitrix/admin/dump.php:2
+----------
+2016-04-04 02:48:39 - Host: sitara.com - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+rmdir(/home/sitara_web/sitara.com/bitrix/html_pages): Directory not empty (0)
+/home/sitara_web/sitara.com/bitrix/modules/main/lib/data/statichtmlfilestorage.php:154
+#0: rmdir(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/lib/data/statichtmlfilestorage.php:154
+#1: Bitrix\Main\Data\StaticHtmlFileStorage::deleteRecursive(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/classes/general/cache_html.php:1384
+#2: CHTMLPagesCache::onEpilogHtmlCache()
+	/home/sitara_web/sitara.com/bitrix/modules/main/classes/general/cache_html.php:1306
+#3: CHTMLPagesCache::OnEpilog()
+	
+#4: call_user_func_array(array, array)
+	/home/sitara_web/sitara.com/bitrix/modules/main/classes/general/module.php:490
+#5: ExecuteModuleEventEx(array)
+	/home/sitara_web/sitara.com/bitrix/modules/main/include/epilog_admin_after.php:22
+#6: require(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/include/epilog_admin_js.php:8
+#7: require(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/admin/dump.php:811
+#8: require_once(string)
+	/home/sitara_web/sitara.com/bitrix/admin/dump.php:2
+----------
+2016-04-04 02:49:09 - Host: sitara.com - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+rmdir(/home/sitara_web/sitara.com/bitrix/html_pages): Directory not empty (0)
+/home/sitara_web/sitara.com/bitrix/modules/main/lib/data/statichtmlfilestorage.php:154
+#0: rmdir(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/lib/data/statichtmlfilestorage.php:154
+#1: Bitrix\Main\Data\StaticHtmlFileStorage::deleteRecursive(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/classes/general/cache_html.php:1384
+#2: CHTMLPagesCache::onEpilogHtmlCache()
+	/home/sitara_web/sitara.com/bitrix/modules/main/classes/general/cache_html.php:1306
+#3: CHTMLPagesCache::OnEpilog()
+	
+#4: call_user_func_array(array, array)
+	/home/sitara_web/sitara.com/bitrix/modules/main/classes/general/module.php:490
+#5: ExecuteModuleEventEx(array)
+	/home/sitara_web/sitara.com/bitrix/modules/main/include/epilog_admin_after.php:22
+#6: require(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/include/epilog_admin_js.php:8
+#7: require(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/admin/dump.php:811
+#8: require_once(string)
+	/home/sitara_web/sitara.com/bitrix/admin/dump.php:2
+----------
+2016-04-04 02:49:18 - Host: sitara.com - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+rmdir(/home/sitara_web/sitara.com/bitrix/html_pages): Directory not empty (0)
+/home/sitara_web/sitara.com/bitrix/modules/main/lib/data/statichtmlfilestorage.php:154
+#0: rmdir(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/lib/data/statichtmlfilestorage.php:154
+#1: Bitrix\Main\Data\StaticHtmlFileStorage::deleteRecursive(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/classes/general/cache_html.php:1384
+#2: CHTMLPagesCache::onEpilogHtmlCache()
+	/home/sitara_web/sitara.com/bitrix/modules/main/classes/general/cache_html.php:1306
+#3: CHTMLPagesCache::OnEpilog()
+	
+#4: call_user_func_array(array, array)
+	/home/sitara_web/sitara.com/bitrix/modules/main/classes/general/module.php:490
+#5: ExecuteModuleEventEx(array)
+	/home/sitara_web/sitara.com/bitrix/modules/main/include/epilog_admin_after.php:22
+#6: require(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/include/epilog_admin_js.php:8
+#7: require(string)
+	/home/sitara_web/sitara.com/bitrix/modules/main/admin/dump.php:811
+#8: require_once(string)
+	/home/sitara_web/sitara.com/bitrix/admin/dump.php:2
+----------

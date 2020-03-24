@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Tours";
+$arDirProperties = Array(
+
+);
+?>

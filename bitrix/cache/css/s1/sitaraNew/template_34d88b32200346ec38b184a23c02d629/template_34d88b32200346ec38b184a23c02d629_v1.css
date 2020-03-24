@@ -1,0 +1,87 @@
+
+
+/* Start:/local/templates/sitaraNew/styles.css?1584892311200*/
+h1{font-size: 1.45em; font-weight: normal;  margin:0;padding:0px; margin-bottom: 20px; padding-bottom: 10px;}
+
+h2,h3,h4{ margin:0;padding:0px;font-size:1.15em; margin-bottom:10px; font-weight:normal;}
+/* End */
+
+
+/* Start:/local/templates/sitaraNew/template_styles.css?15848923111885*/
+a#inifiniteLoader{
+    top: 100px;
+    color: #000000;
+    display: none;
+    left: 87%;
+    position: fixed;
+    z-index: 1000;
+}
+
+code, pre {
+    border-radius: 3px 3px 3px 3px;
+    color: #333333;
+    font-family: Monaco,Menlo,Consolas,"Courier New",monospace;
+    font-size: 12px;
+    padding: 0 3px 2px;
+}
+code {
+    background-color: #F7F7F9;
+    border: 1px solid #E1E1E8;
+    color: #DD1144;
+    padding: 2px 4px;
+    white-space: nowrap;
+}
+pre {
+    background-color: #F5F5F5;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px 4px 4px 4px;
+    display: block;
+    font-size: 13px;
+    line-height: 20px;
+    margin: 0 0 10px;
+    padding: 9.5px;
+    white-space: pre-wrap;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.newslist {
+    margin: 0 0 0 -30px !important;
+}
+
+
+.successJ {
+    color: green;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.errorJ {
+    color: red;
+    font-weight: bold;
+}
+
+
+/* DETAIL NEWS */
+div.news-detail div.news-text {margin-top:10px;}
+div.news-detail div.news-picture {margin-right:16px; float:left; text-align:center; padding-top:2px;}
+div.news-detail span.news-date-time {font-size:0.75em;}
+div.news-detail-back {font-size:0.85em;margin:10px 0;}
+div.news-detail-theme {margin:15px 0 15px 0;padding-top:15px;}
+div.news-detail-theme div.news-theme-title {margin-bottom:10px;}
+div.news-detail div.news-theme-date {font-size:0.75em;float:left; width:131px; text-align:right}
+div.news-detail div.news-theme-url {font-size:0.90em; margin-left:138px;}
+div.news-detail div.news-theme-item {margin:3px 0;}
+div.news-detail div.news-property {margin-top:10px; font-size:0.85em}
+div.news-detail div.news-detail-share {float: right; margin-right: 110px; margin-top: -31px}
+
+.bibi-list ul li a .this-title span {
+  clear: both;
+  color: #6f604a;
+  display: block;
+  font-size: 13px;
+  padding-top: 5px;
+}
+/* End */
+/* /local/templates/sitaraNew/styles.css?1584892311200 */
+/* /local/templates/sitaraNew/template_styles.css?15848923111885 */

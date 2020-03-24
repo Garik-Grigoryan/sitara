@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Hotels";
+$arDirProperties = Array(
+
+);
+?>

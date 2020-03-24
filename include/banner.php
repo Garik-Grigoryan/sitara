@@ -1,0 +1,4 @@
+<h3 style="text-align: left;"> <b>Photo Gallery</b></h3>
+ <a href="http://sitara.com/gallery/"><img width="200" alt="Dome of the Kok-Gumbaz mosque 1434-1435 at Shahrisabz Uzbekistan" src="/upload/medialibrary/930/dome-of-the-kok-gumbaz-mosque-1434-1435-at-shakhrisabz-uzbekistan.jpg" height="133" title="Dome of the Kok-Gumbaz mosque 1434-1435 at Shahrisabz Uzbekistan"></a><br><br><br>
+
+<div id="bookmundi-widget-sidebar"><a href="https://www.bookmundi.com/companies/sitara-international-ltd/c1353" target="_blank" id="bookmundi-link">Sitara International Ltd.</a></div><script src="https://www.bookmundi.com/review-widget/?c=7761"></script>

@@ -1,0 +1,1 @@
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/alexkova.iblockadminhelper/tools/iblockadminhelper_propdetail.php");?>

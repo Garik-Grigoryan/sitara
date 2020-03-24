@@ -1,0 +1,95 @@
+Options -Indexes 
+ErrorDocument 404 /404.php
+
+<IfModule mod_php5.c>
+  php_flag session.use_trans_sid off
+  #php_value display_errors 1
+  php_value mbstring.internal_encoding UTF-8
+  php_value mbstring.func_overload 2
+  #php_flag display_startup_errors off
+ php_flag memory_limit 256M
+  
+	#php_flag display_errors off
+	#php_flag html_errors off
+	#php_flag  log_errors off
+	#php_value error_log  /home/sitara_web/sitara.com/PHP_errors.log
+	#php_flag allow_url_fopen off
+
+</IfModule>
+
+<IfModule mod_rewrite.c>
+  Options +FollowSymLinks
+  RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -l [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteCond %{REQUEST_FILENAME} [\xC2-\xDF][\x80-\xBF] [OR]
+RewriteCond %{REQUEST_FILENAME} \xE0[\xA0-\xBF][\x80-\xBF] [OR]
+RewriteCond %{REQUEST_FILENAME} [\xE1-\xEC\xEE\xEF][\x80-\xBF]{2} [OR]
+RewriteCond %{REQUEST_FILENAME} \xED[\x80-\x9F][\x80-\xBF] [OR]
+RewriteCond %{REQUEST_FILENAME} \xF0[\x90-\xBF][\x80-\xBF]{2} [OR]
+RewriteCond %{REQUEST_FILENAME} [\xF1-\xF3][\x80-\xBF]{3} [OR]
+RewriteCond %{REQUEST_FILENAME} \xF4[\x80-\x8F][\x80-\xBF]{2}
+RewriteCond %{REQUEST_FILENAME} !/bitrix/virtual_file_system.php$
+RewriteRule ^(.*)$ /bitrix/virtual_file_system.php [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-l
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !/bitrix/urlrewrite.php$
+  RewriteRule ^(.*)$ /bitrix/urlrewrite.php [L]
+  RewriteRule .* - [E=REMOTE_USER:%{HTTP:Authorization}]
+</IfModule>
+
+<IfModule mod_dir.c>
+  DirectoryIndex index.php index.html
+</IfModule>
+
+<ifModule mod_expires.c>
+
+# Add correct content-type for fonts
+AddType application/vnd.ms-fontobject .eot
+AddType application/x-font-ttf .ttf
+AddType application/x-font-opentype .otf
+AddType application/x-font-woff .woff
+AddType image/svg+xml .svg
+
+# Compress compressible fonts
+AddOutputFilterByType DEFLATE application/x-font-ttf application/x-font-opentype image/svg+xml
+
+ExpiresActive On
+ExpiresDefault "access plus 5 seconds"
+
+# Cache Images
+ExpiresByType image/x-icon "access plus 2592000 seconds"
+ExpiresByType image/jpeg "access plus 2592000 seconds"
+ExpiresByType image/png "access plus 2592000 seconds"
+ExpiresByType image/gif "access plus 2592000 seconds"
+ExpiresByType image/svg+xml "access plus 2592000 seconds"
+
+# Cache Fonts
+ExpiresByType application/vnd.ms-fontobject "access plus 2592000 seconds"
+ExpiresByType application/x-font-ttf "access plus 2592000 seconds"
+ExpiresByType application/x-font-opentype "access plus 2592000 seconds"
+ExpiresByType application/x-font-woff "access plus 2592000 seconds"
+ExpiresByType image/svg+xml "access plus 2592000 seconds"
+
+# Cache other content types (Flash, CSS, JS, HTML, XML)
+ExpiresByType application/x-shockwave-flash "access plus 2592000 seconds"
+ExpiresByType text/css "access plus 604800 seconds"
+ExpiresByType text/javascript "access plus 2592000 seconds"
+ExpiresByType application/javascript "access plus 2592000 seconds"
+ExpiresByType application/x-javascript "access plus 2592000 seconds"
+ExpiresByType text/html "access plus 600 seconds"
+ExpiresByType application/xhtml+xml "access plus 600 seconds"
+
+</ifModule>
+
+
+<IfModule headers_module>
+	Header set X-Content-Type-Options nosniff
+</IfModule>
+
+<IfModule headers_module>
+	Header set X-Frame-Options SAMEORIGIN
+</IfModule>

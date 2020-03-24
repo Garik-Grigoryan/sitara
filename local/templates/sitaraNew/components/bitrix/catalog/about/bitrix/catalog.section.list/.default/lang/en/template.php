@@ -1,0 +1,2 @@
+<?
+$MESS["ABOUT"] = "About countries";

@@ -1,0 +1,1 @@
+<?php $filesInfo = array("/local/templates/sitaraNew/styles.css" => "1584892311200","/local/templates/sitaraNew/template_styles.css" => "15848923111885",); ?>

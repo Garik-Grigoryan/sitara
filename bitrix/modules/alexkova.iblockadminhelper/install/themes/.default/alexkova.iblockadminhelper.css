@@ -1,0 +1,16 @@
+.adminhelper-property-icon{
+	overflow:hidden;
+	zoom:1;
+	float:right;
+}
+.adminhelper-property-icon a{
+	width:15px;
+	height:15px;
+	background: url('icons/alexkova.iblockadminhelper/icon_s.png') no-repeat top left;
+	float:left;
+	text-decoration:none;
+	margin-right:10px;
+}
+.adminhelper-property-icon .adminhelper-property-icon-loading{
+	background-image: url('icons/alexkova.iblockadminhelper/loading_s.gif');
+}
